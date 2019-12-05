@@ -1,9 +1,10 @@
 // Write your solution here!
-const list =["Milo", "Otis", "Garfield"];
-function append(e){
-  list.push(e);
-}
-append("Odie")
-// list.unshift("pet");
-// list.pop();
-// list.shift();
+const append = ["Milo", "Otis", "Garfield"];
+const prepend = ["Milo", "Otis", "Garfield"];
+const removeLast = ["Milo", "Otis", "Garfield"];
+const removeFirst = ["Milo", "Otis", "Garfield"];
+
+append.push("Odie");
+prepend.unshift("Odie");
+removeLast.pop();
+removeFirst.shift()
