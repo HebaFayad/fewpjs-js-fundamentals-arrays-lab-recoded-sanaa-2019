@@ -1,9 +1,9 @@
 // Write your solution here!
 const list =["Milo", "Otis", "Garfield"];
-function append(){
-  list.push("Odie");
+function append(e){
+  list.push(e);
 }
-
-list.unshift("pet");
-list.pop();
-list.shift();
+append("Odie")
+// list.unshift("pet");
+// list.pop();
+// list.shift();
